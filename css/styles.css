@@ -12,8 +12,7 @@
   --fourth-text-color: #555555;
   --accent-color: #2196f3;
   --footer-background: #2f303a;
-
-  #f5f4fa
+  --footer-dets-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -57,11 +56,11 @@ body {
 }
 
 .directions {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.03em;
-color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 .jobs p {
@@ -121,8 +120,6 @@ color: #757575;
   color: var(--secondary-text-color);
   font-family: inherit;
 }
-
-
 
 /*---------------Buttons------------------*/
 
@@ -307,4 +304,35 @@ color: #757575;
 .address .button:hover,
 .address .button:focus {
   color: var(--accent-color);
+}
+
+.logo-footer {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--first-btn-color);
+}
+
+.footer-add {
+  color: var(--first-btn-color);
+}
+
+.footer-details {
+  color: var(--footer-dets-color);
+}
+
+.footer-add:hover,
+.footer-add:focus {
+  color: var(--accent-color);
+}
+
+.footer-details:hover,
+.footer-details:focus {
+  color: var(--accent-color);
+}
+
+.logo-second-part {
+  color: var(--first-title-color);
 }
