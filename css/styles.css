@@ -537,7 +537,13 @@ img {
 .projects .section {
   padding-top: 94px;
   padding-bottom: 94px;
+  margin-bottom: 94px;
 }
+
+.projects .container {
+  margin-bottom: 94px;
+}
+
 .filter-list {
   display: flex;
   justify-content: center;
