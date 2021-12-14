@@ -2,7 +2,7 @@
   --header-color: #212121;
   --second-header-color: #757575;
   --first-title-color: #ffffff;
-  --border-l-header-color: #ececec 
+  --border-l-header-color: #ececec;
   --second-title-color: #303030;
   --first-btn-color: #ffffff;
   --second-btn-color: #303030;
@@ -38,11 +38,6 @@ img {
 }
 
 /* ------------------HEADER----------------------- */
-
-
-.accent {
-  color: var(--accent-color);
-}
 
 .list {
   list-style: none;
@@ -81,10 +76,8 @@ img {
 }
 
 .header .section {
-  border-bottom: 1px solid var(--border-l-header);
+  border-bottom: 1px solid var(--border-l-header-color);
 }
-
-
 
 .header > .container {
   display: flex;
@@ -100,10 +93,6 @@ img {
   display: block;
   color: var(--header-color);
   margin-right: 93px;
-}
-
-.header-nav .header-link {
-  color: inherit;
 }
 
 .header-l-nav {
@@ -127,12 +116,28 @@ img {
   margin-left: 50px;
 }
 
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--second-header-color);
+}
+
 .header-tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--second-header-color);
+}
+
+.header-nav .header-link {
+  color: inherit;
+}
+
+.accent {
+  color: var(--accent-color);
 }
 
 /* HERO */
@@ -293,7 +298,6 @@ img {
 }
 
 .filter-list {
-
 }
 .directions {
   font-weight: 400;
@@ -303,12 +307,6 @@ img {
   color: #757575;
 }
 
-.jobs p {
-  color: var(--third-text-color);
-  font-size: 16px;
-  line-height: 1.87;
-}
-
 .header-link {
   font-weight: 500;
   font-size: 14px;
@@ -316,7 +314,6 @@ img {
   letter-spacing: 0.02em;
   display: block;
 }
-
 
 .header .header-link:hover,
 .header .header-link:focus,
@@ -445,8 +442,6 @@ img {
   color: var(--second-text-color);
 }
 
-
-
 .hero-after-title {
   color: var(--third-text-color);
 }
@@ -535,7 +530,6 @@ img {
 .projects.section {
   padding-top: 94px;
   padding-bottom: 94px;
-  border-bottom: 1px solid var(--border-l-header-color);
 }
 .filter-list {
   display: flex;
@@ -547,7 +541,6 @@ img {
 .filter-item:not(:last-child) {
   margin-right: 8px;
 }
-
 
 .filter-item > .filter-btn {
   display: block;
@@ -578,6 +571,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
   margin: -15px;
 }
 .project-item {
