@@ -185,10 +185,10 @@ img {
   padding-top: 94px;
 }
 
-/* .projects {
+.projects {
   padding-top: 94px;
-  padding-bottom: 0;
-} */
+  padding-bottom: 0px;
+}
 
 .visually-hidden {
   position: absolute;
@@ -498,6 +498,7 @@ img {
   line-height: 1.2;
   margin-bottom: 20px;
 }
+
 .footer-address-item:not(:last-child) {
   margin-bottom: 9px;
 }
